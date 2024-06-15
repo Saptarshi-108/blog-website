@@ -1,1 +1,37 @@
+:root{
+    --main-bg-color:#028391;
+}
+.max-width-1{
+    max-width:50vw;
+}
+.max-width-2{
+    min-width:70vw;
+}
+.m-auto{
+    margin:auto;
+}
+.btn{
+    border-radius: 20px;
+    max-height: 40px;
+    width: 80px;
+}
+input[type=text] {
+    width: 60;
+    padding: 10px 20px;
+    margin: 3px 2px;
+    border-radius: 20px;
+  }
+.form-control{
+    
+}
+.left{
+    display:flex;
+    justify-content: flex-start;
+    margin-left:15px;
+}
+.right{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:15px;
+}
 
