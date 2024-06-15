@@ -2,21 +2,14 @@
   padding: 0;
   margin: 0;
 }
-
-.honk {
-  font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-size: larger;
-  font-style: normal;
-  font-variation-settings: "MORF" 15, "SHLN" 50;
+.nav-left ul {
+  list-style-type: none;
 }
 body {
   background-color: #f0f0f0;
 }
 .navigation {
-  /* background-color:#01204E; */
-  background-color: #153448;
+  background-color: #f6dcac;
   height: 4vw;
   justify-content: space-between;
   display: flex;
@@ -39,4 +32,18 @@ body {
 #search {
   background-color: #028391;
   margin-right: 15px;
+}
+.nav-left {
+  margin-left: 15px;
+  display: flex;
+}
+.nav-left ul {
+  display: flex;
+}
+.nav-left ul li {
+  list-style: none;
+  margin:0 14px;
+}
+.nav-left ul li a{
+  text-decoration: none;
 }
