@@ -1,37 +1,38 @@
-:root{
-    --main-bg-color:#028391;
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --main-bg-color: #028391;
+  --font-1: "Prompt", sans-serif;
+  --font-2: "Roboto Condensed", sans-serif;
 }
-.max-width-1{
-    max-width:50vw;
+
+.max-width-1 {
+  max-width: 50vw;
 }
-.max-width-2{
-    min-width:70vw;
+
+.max-width-2 {
+  min-width: 70vw;
 }
-.m-auto{
-    margin:auto;
+
+.m-auto {
+  margin: auto;
 }
-.btn{
-    border-radius: 20px;
-    max-height: 40px;
-    width: 80px;
+
+.btn {
+  border-radius: 20px;
+  max-height: 40px;
+  width: 80px;
 }
-input[type=text] {
-    width: 60;
-    padding: 10px 20px;
-    margin: 3px 2px;
-    border-radius: 20px;
-  }
-.form-control{
-    
+
+input[type="text"] {
+  width: 60;
+  padding: 10px 20px;
+  margin: 3px 2px;
+  border-radius: 20px;
 }
-.left{
-    display:flex;
-    justify-content: flex-start;
-    margin-left:15px;
-}
-.right{
-    display:flex;
-    justify-content:flex-end;
-    margin-right:15px;
+
+
+.form-control {
 }
 
