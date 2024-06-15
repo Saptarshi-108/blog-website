@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: larger;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+body {
+  background-color: #f0f0f0;
+}
+.navigation {
+  /* background-color:#01204E; */
+  background-color: #153448;
+  height: 4vw;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.content {
+  height: 95px;
+  background-color: #dfd0b8;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #3c5b6f;
+  height: 34px;
+}
+#logo {
+  height: 3vw;
+}
+#search {
+  background-color: #028391;
+  margin-right: 15px;
+}
