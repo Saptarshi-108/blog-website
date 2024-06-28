@@ -1,49 +1,130 @@
-* {
+body {
   padding: 0;
   margin: 0;
+  background-color: #adafb1;
+}
+.heading{
+  max-height:fit-content;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: bold; 
+  margin-top:2vw ;
+}
+.sub-heading{
+  display:flex;
+  text-align:left;
+  font-size: 0.85vw;
+  font-family:var(--font-2);
+  padding-top:1vw;
+  padding-left:2vw;
+  background-color: #3C5B6F;
+  background-attachment: fixed;
+  color:azure;
+  border-radius:10px;
+}
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .nav-left ul {
+  margin-top:4vw;
   list-style-type: none;
+  font-family: var(--font-1);
+  cursor:pointer;
 }
-body {
-  background-color: #f0f0f0;
-}
+
 .navigation {
-  background-color: #f6dcac;
-  height: 4vw;
+  background-color: #adafb1;
+  max-height: 6vw;
   justify-content: space-between;
   display: flex;
   align-items: center;
 }
 .content {
-  height: 95px;
+  height:100vw;
   background-color: #dfd0b8;
   display: flex;
   justify-content: center;
 }
 
 .footer {
-  background-color: #3c5b6f;
-  height: 34px;
+  background-color: #028391;
+  height: 2vw;
 }
 #logo {
-  height: 3vw;
+  margin-top:1vw;
+  height: 4vw;
+  width: 4vw;
+  cursor:zoom-in;
 }
 #search {
   background-color: #028391;
   margin-right: 15px;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
+
+.button1 {
+  background-color: white; 
+  color: black; 
+}
+
+.button1:hover {
+  background-color:#028391;
+  color: white;
+}
+
 .nav-left {
-  margin-left: 15px;
   display: flex;
+  margin-top: 1vw;
 }
 .nav-left ul {
   display: flex;
 }
 .nav-left ul li {
   list-style: none;
-  margin:0 14px;
+  margin:0 1vw;
 }
-.nav-left ul li a{
-  text-decoration: none;
+.nav-left ul li:hover{
+  background-color: #948979;
+  height:fit-content;
+  color:aliceblue;
+  border-radius:2px;
+  padding:1px;
+  transition: all 0.3s ease-out;
 }
+
+.tab{
+  display:flex;
+  background-color:#aea698;
+  height:2vw;
+  width:60vw;
+}
+.tab ul{
+  display: flex;
+}
+.tab ul li{
+  list-style:none;
+  margin:0 1vw;
+}
+.tab ul li:hover{
+  background-color:#aea698; 
+  height:3vw;
+  padding:1em;
+  transition: all 0.7s ease-out;
+  font-size: larger;
+  font-weight: bolder;
+}
+.tab ul li a:link{
+  color:black;  
+  text-decoration:none;
+}
+
+
+
+
+
+
